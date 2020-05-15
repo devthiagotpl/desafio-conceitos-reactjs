@@ -17,7 +17,7 @@ const actWait = async (amount = 0) => {
   });
 };
 
-describe("App component", () => {
+describe("Repositories", () => {
   it("should be able to add new repository", async () => {
     const { getByText, getByTestId } = render(<App />);
 
